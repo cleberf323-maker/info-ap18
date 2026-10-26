@@ -22,7 +22,7 @@
 
 Valor orientativo: cerca de 12,6 V numa bateria de chumbo-ácido carregada em repouso. Não transformar referência genérica em diagnóstico isolado.
 
-Resultado: ____ V | Data: ____ | Condição: ____
+Resultado informado: **12,6 V** | Comunicado em 2026-10-26 | Condição exata de repouso não especificada
 
 ### T2 — Tensão durante a partida
 
@@ -32,7 +32,7 @@ Resultado: ____ V | Data: ____ | Condição: ____
 
 Referência orientativa: queda abaixo de aproximadamente 9,6 V em condições usuais merece investigar bateria, cabos, conexões ou motor de partida. Valor varia com temperatura e condições de teste.
 
-Resultado: ____ V | Data: ____ | Observações: ____
+Resultado informado: **10,8 V** | Comunicado em 2026-10-26 | Medição durante a partida
 
 ### T3 — Tensão de carga
 
@@ -41,7 +41,7 @@ Resultado: ____ V | Data: ____ | Observações: ____
 
 Referência genérica: ~13,8–14,7 V costuma indicar carga normal, mas depende do regulador e das condições.
 
-Marcha lenta: ____ V | Rotação superior: ____ V | Data: ____
+Resultado informado com motor funcionando: **13,8 a 14,0 V** | Comunicado em 2026-10-26 | Rotação não especificada
 
 ### T4 — Queda de tensão no aterramento do motor durante a partida
 
@@ -51,11 +51,24 @@ Marcha lenta: ____ V | Rotação superior: ____ V | Data: ____
 
 Desejável: o mais perto de zero possível. ~0,2 V ou menos é um bom sinal inicial; ~0,5 V ou mais sugere investigar conexões/cabo de massa, considerando a corrente e os pontos reais de medição.
 
-Resultado: ____ V | Data: ____ | Pontos exatos de contato: ____
+Resultado informado: **0,27 V** | Comunicado em 2026-10-26 | Pontos exatos de contato não especificados
 
 ### Interpretação após T1–T4
 
 Comparar resultados em conjunto; se algum for anômalo, avaliar conexões, aterramentos e bateria antes de avançar. Tensão normal não descarta falha intermitente do Hall, módulo, cabos, tampa ou rotor.
+
+### T5 — Queda de tensão na alimentação da bobina durante a partida (próximo teste)
+
+**Antes de medir:** identificar visualmente a bobina nova e seu terminal positivo **15/+**. Bobinas com conectores diferentes exigem pinagem confirmada por código/esquema; não adivinhar. Não tocar em borne 1/– ou cabos de alta tensão. Não usar escala de corrente/ohms.
+
+1. Com motor desligado, câmbio em ponto morto e freio de mão acionado, ajustar multímetro em **V DC**.
+2. Fixar ponta **vermelha no polo positivo da bateria** e ponta **preta no terminal de alimentação 15/+ da bobina**, se esse terminal for inequivocamente identificado e acessível.
+3. Prender as pontas fora do alcance de partes móveis; pedir ajuda para dar partida brevemente e registrar a leitura de queda de tensão, preferencialmente com MAX se disponível.
+4. Registrar também a tensão da bateria durante a partida na mesma condição, para referência.
+
+**Interpretação:** queda pequena indica alimentação mais preservada. Perdas repetíveis próximas de 0,5 V ou maiores merecem investigação de chave de ignição, terminais, conectores e fiação, **considerando se o circuito possui resistência intencional**. Não há valor específico confirmado aqui para a configuração modificada de bobina/módulo.
+
+Resultado: ____ V | Código da bobina: ____ | Observações: ____
 
 ## Rodada 2 — identificação e inspeção
 
@@ -87,4 +100,4 @@ Conclusão: normal / anômalo / inconclusivo
 Próximo passo:
 ```
 
-**Status:** nenhum teste desta lista foi declarado como executado até a criação do documento (2026-10-25).
+**Status em 2026-10-26:** T1–T4 concluídos conforme leituras relatadas; T5 pendente de confirmação do terminal 15/+ da bobina nova. A medição de aterramento de 0,27 V está ligeiramente acima do alvo conservador, mas ainda não configura defeito demonstrado.
