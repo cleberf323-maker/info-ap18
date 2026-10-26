@@ -61,9 +61,9 @@ Fontes de referência (procedimentos genéricos; não são especificações excl
 ### Pendências de identificação e diagnóstico
 
 - [ ] Repetir a queda de tensão de aterramento no mesmo ponto, se conveniente.
-- [ ] Fotografar e identificar terminal positivo (15/+), código e fabricante da bobina nova.
+- [x] Identificar código e fabricante da bobina nova: Magneti Marelli BI0016MM (terminal positivo ainda não identificado).
 - [ ] Medir queda de tensão entre o polo positivo da bateria e o terminal de alimentação 15/+ da bobina durante a partida, **apenas após identificação correta do terminal**.
-- [ ] Modelo/código do módulo de ignição.
+- [x] Modelo/código do módulo de ignição: Bosch 0 227 100 142 / VW 191 905 351 A.
 - [ ] Identificação visual do distribuidor.
 - [ ] Ordem real dos cilindros correspondente às velas fotografadas.
 
@@ -73,3 +73,24 @@ Fontes de referência (procedimentos genéricos; não são especificações excl
 - Não comprar componentes por mera suspeita.
 - Não alterar giclês/regulagens do carburador recondicionado antes de evidências e, se necessário, contato com o fornecedor.
 - Atualizar este arquivo depois de cada rodada com fatos novos e hipóteses eliminadas.
+
+## 6. Identificação fotográfica dos componentes — 2026-10-26
+
+Quatro fotos enviadas no chat; imagens ainda não armazenadas no repositório.
+
+| Componente | Identificação lida na foto | Observações |
+| --- | --- | --- |
+| Bobina antiga | MARFLEX MB-928077, 12 V, alta potência, refrigerada a óleo | Substituída; aquecimento excessivo relatado; não foi demonstrado que estivesse defeituosa |
+| Bobina atual | Magneti Marelli BI0016MM | Bobina de tipo mais recente, catalogada para VW AP Mi desde 1996; adaptação deve ser verificada pelo chicote |
+| Módulo eletrônico | Bosch 0 227 100 142 / VW 191 905 351 A | Módulo Hall de 7 pinos, código visível na segunda foto |
+
+**Pesquisa de compatibilidade:** catálogo VW Economy lista BI0016MM para AP Mi posterior, mas há kit de ignição de mercado que utiliza BI0016MM com módulo equivalente ao Bosch 0 227 100 142. Isso sustenta possibilidade de funcionamento conjunto, **não** demonstra que a instalação no veículo esteja correta, nem garante controle de corrente/dwell adequado.
+
+**Observação visual:** uma mola metálica atravessa a região do conector do módulo Bosch; não afirmar se é original ou improvisação sem inspeção próxima. Conferir retenção e ausência de folga, corrosão e fios danificados com chave desligada. A bobina atual tem a ligação de baixa tensão parcialmente encoberta na foto; é preciso mostrar o conector para identificar pino positivo de forma segura.
+
+Fontes:
+- VW Economy: https://www.vw.com.br/idhub/content/dam/onehub_pkw/importers/br/pos-vendas/CAT_ECONOMY_2024-PORT-ED13_V10.pdf (p. 38 impressa).
+- Kit comercial reunindo bobina e módulo equivalente: https://www.crestana.com.br/ignicao-e-eletrica/distribuidores/kit-ignicao-motor-vw-brasilia-modulo-e-distribuidor
+- Gauss GA2142, equivalência do módulo: https://www.gauss.com.br/pt-br/produto/automoveis-e-utilitarios-leves/linha/modulo-de-ignicao/GA2142?pesquisa-tipo=geral&pesquisar-por-parte-codigo=false
+
+**Próximo passo:** inspeção de conector do módulo e fios com carro desligado; foto aproximada dos 2 contatos de baixa tensão da bobina atual e identificação dos pinos antes de T5.
