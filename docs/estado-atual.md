@@ -119,3 +119,23 @@ Esta leitura **contradiz a hipótese inicial feita pelas cores** (vermelho como 
 **Próximo passo elétrico T7:** (a) com plugue ainda desconectado, confirmar se a tensão no preto desaparece com chave desligada; (b) localizar gravações 15/+ e 1/- ou esquema do conector; (c) somente com a alimentação positiva identificada, **reconectar** a bobina e medir o positivo sob carga durante partida, via backprobe seguro, sem perfurar isolamento nem aproximar metal dos dois contatos. Comparar com 10,8 V prévios na bateria sob partida; idealmente medir diretamente queda entre polo positivo da bateria e entrada 15/+ da bobina. **Não encostar lâmpada de teste ou fazer aterramento no fio vermelho.** Se o contato não for acessível com segurança, parar e obter adaptador.
 
 Referência para arquitetura elétrica: manual FuelTech FT200, sec. 7.1.4, módulo Bosch 0 227 100 142 com saída para negativo da bobina e positivo pós-chave: https://ftmanager.fueltech.com.br/downloads/manual/Portugues/FT200.pdf
+
+## 9. Medições complementares — 2026-10-26 (interpretação pendente)
+
+Usuário informou:
+
+| Condição / referência | Leitura |
+| --- | --- |
+| Conector **desligado da bobina**, chave desligada; cada fio vs. negativo da bateria | **0 V nos dois** |
+| Conector **desligado da bobina**, chave ligada; fio preto vs. negativo da bateria | **12,6 V** |
+| Conector **desligado da bobina**, chave ligada; fio vermelho vs. negativo da bateria | **2,67 V** |
+| Multímetro vermelho no polo **positivo da bateria**, preto no **fio preto**; chave ligada | **12,6 V** |
+| Mesma ligação; durante a partida | **oscilação observada 0,5 a 3 V** |
+
+**Informação ainda indefinida:** se o conector da bobina foi **reconectado** antes do último teste (denominado pelo usuário 'teste 2'), e se o contato foi feito do lado da bobina ou do chicote. **Não inventar resposta**.
+
+**Inconsistência a resolver:** com a chave ligada e os mesmos estados de conexão/carga, se o fio preto está em 12,6 V acima do negativo da bateria e o positivo da bateria também está em 12,6 V, a tensão entre os dois deve ser aproximadamente 0 V. Uma leitura de 12,6 V entre o positivo da bateria e o fio preto aponta estado de conexão alterado, leitura em momentos diferentes, contato errado/intermitente, ou comportamento eletrônico que mudou entre medidas. Não é prova de 12,6 V de queda na alimentação nem autoriza afirmar fio preto=15/+.
+
+**Oscilações no arranque:** multímetro comum não caracteriza forma de onda do chaveamento do módulo; variação entre 0,5 e 3 V não é diagnóstico de queda em alimentação sem saber o estado do conector e a função do fio.
+
+**Próximo passo:** esclarecer se plugue estava conectado na última medição e repetir, **somente com conector desligado e sem dar partida**, três medições com chave ligada em rápida sequência, sem modificar conexão: bateria + → bateria -; fio preto do chicote → bateria -; bateria + → fio preto do chicote. Esperado V(+/-) ≈ V(preto/-) + V(+/preto), respeitando a polaridade. Não tocar nem aterrar o outro terminal, não manter chave ligada além do necessário, não fazer novos testes sob carga sem identificação de 15/1.
