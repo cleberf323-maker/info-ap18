@@ -57,7 +57,7 @@ Resultado informado: **0,27 V** | Comunicado em 2026-10-26 | Pontos exatos de co
 
 Comparar resultados em conjunto; se algum for anômalo, avaliar conexões, aterramentos e bateria antes de avançar. Tensão normal não descarta falha intermitente do Hall, módulo, cabos, tampa ou rotor.
 
-### T5 — Queda de tensão na alimentação da bobina durante a partida (próximo teste)
+### T5 — Queda de tensão na alimentação da bobina durante a partida (pendente de acesso sob carga)
 
 **Antes de medir:** identificar visualmente a bobina nova e seu terminal positivo **15/+**. Bobinas com conectores diferentes exigem pinagem confirmada por código/esquema; não adivinhar. Não tocar em borne 1/– ou cabos de alta tensão. Não usar escala de corrente/ohms.
 
@@ -69,6 +69,25 @@ Comparar resultados em conjunto; se algum for anômalo, avaliar conexões, aterr
 **Interpretação:** queda pequena indica alimentação mais preservada. Perdas repetíveis próximas de 0,5 V ou maiores merecem investigação de chave de ignição, terminais, conectores e fiação, **considerando se o circuito possui resistência intencional**. Não há valor específico confirmado aqui para a configuração modificada de bobina/módulo.
 
 Resultado: ____ V | Código da bobina: ____ | Observações: ____
+
+
+### T6 — Tensão no chicote da bobina, plugue desconectado (executado)
+
+- Data do relato: 2026-10-26.
+- Chave ligada, bobina desconectada, referência negativo da bateria.
+- **Fio preto: 12,6 V.** Provável positivo pós-chave (15), confirmar gravação/ligação.
+- **Fio vermelho: 2,67 V.** Possível terminal de comando chaveado do módulo (1); leitura em aberto **não comprova defeito**.
+- Não voltar a assumir que vermelho é positivo com base em cor do fio.
+
+### T7 — Confirmar pós-chave e medir a alimentação sob carga (próximo)
+
+1. Com o conector ainda desconectado, usar V DC entre o terminal do **fio preto** no chicote e o negativo da bateria. Confirmar ~0 V com **chave desligada** e ~12 V com **chave ligada**. Não tocar os terminais simultaneamente.
+2. **Desligar a chave**, identificar 15/+ (alimentação) e 1/- (comando) por marcações no corpo da bobina, pinagem confiável ou rastreio do chicote. Não fazer pontes ou usar lâmpada de teste no vermelho.
+3. Reencaixar plugue até travar, com chave desligada. Somente com alimentação 15/+ identificada e sem risco de curto, usar adaptador de teste/backprobe não invasivo para medir tensão no 15/+ **durante partida**. Melhor ainda, medir queda direta V DC entre polo positivo da bateria (vermelha do multímetro) e 15/+ (preta do multímetro), sem encostar no terminal 1/-; instalar pontas antes e longe das partes móveis.
+4. Registrar tensão e condição. Uma queda pequena é desejável; valor repetível próximo/acima de 0,5 V pede inspeção de chave, conectores e fiação, considerando a presença de eventual resistência de alimentação por projeto.
+5. Se não houver modo seguro de acesso no plugue montado, **não perfurar fios** nem forçar terminais: providenciar conector de teste/extensão apropriada.
+
+Resultados: chave desligada, fio preto ____ V; conector conectado e partida, queda ____ V.
 
 ## Rodada 2 — identificação e inspeção
 
@@ -109,4 +128,4 @@ Conclusão: normal / anômalo / inconclusivo
 Próximo passo:
 ```
 
-**Status em 2026-10-26:** T1–T4 concluídos conforme leituras relatadas; T5 pendente de confirmação do terminal 15/+ da bobina nova. A medição de aterramento de 0,27 V está ligeiramente acima do alvo conservador, mas ainda não configura defeito demonstrado.
+**Status em 2026-10-26:** T1–T4 executados; T6 medido com plugue da bobina desligado. T5/T7 sob carga ainda pendentes de confirmar terminal 15/+ e acesso seguro. Queda de aterramento de 0,27 V merece confirmação, mas não configura defeito demonstrado.
