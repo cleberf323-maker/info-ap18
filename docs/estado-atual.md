@@ -1,4 +1,4 @@
-# Estado atual do diagnóstico — 2026-10-25
+# Estado atual do diagnóstico — atualizado em 2026-10-26
 
 ## 1. Fatos confirmados pelo relato
 
@@ -41,16 +41,31 @@ Foto analisada no chat (ainda não arquivada aqui), com quatro velas dispostas d
 
 A melhora com acelerador todo pressionado é **compatível** com afogamento, mas não prova excesso de combustível; o movimento inicial do pedal também aciona a bomba de aceleração.
 
-## 4. Medições pendentes
+## 4. Rodada 1 — medições informadas em 2026-10-26
 
-- [ ] Tensão bateria em repouso: ____ V
-- [ ] Tensão mínima durante partida: ____ V
-- [ ] Tensão com motor em funcionamento: ____ V
-- [ ] Queda de tensão entre polo negativo da bateria e bloco durante partida: ____ V
-- [ ] Modelo/código da bobina atual: ____
-- [ ] Identificação/código do módulo de ignição: ____
-- [ ] Identificação visual do distribuidor: ____
-- [ ] Ordem real dos cilindros correspondente às velas fotografadas: ____
+Data exata da realização não informada. Os valores abaixo são relatos do proprietário.
+
+| Medição | Resultado | Leitura provisória |
+| --- | --- | --- |
+| Bateria em repouso | 12,6 V | Compatível com carga adequada |
+| Bateria durante partida | 10,8 V | Boa sustentação de tensão no ensaio |
+| Bateria com motor funcionando | 13,8 a 14,0 V | Carga aparentemente normal |
+| Queda polo negativo da bateria → bloco durante partida | 0,27 V | Um pouco acima do alvo conservador de 0,2 V, mas abaixo de 0,5 V; repetir/observar, não condenar cabo |
+
+**Conclusão parcial:** medições não indicam falha evidente na bateria, alternador ou alimentação geral durante este ensaio. Não descartam defeitos elétricos intermitentes nem falhas de ignição. A leitura de 0,27 V do aterramento merece confirmação, mas não sustenta, sozinha, substituir componentes.
+
+Fontes de referência (procedimentos genéricos; não são especificações exclusivas do ano 1993):
+- [Fluke — teste de queda de tensão na partida](https://www.fluke.com/en/learn/blog/digital-multimeters/how-to-check-starter-circuit-voltage-drop-with-a-multimeter).
+- [Volkswagen Technical Tip 97-20-01TT — método de medição, aplicável à linha mais recente, não especificação da Parati 1993](https://static.nhtsa.gov/odi/tsbs/2020/MC-10174460-0001.pdf).
+
+### Pendências de identificação e diagnóstico
+
+- [ ] Repetir a queda de tensão de aterramento no mesmo ponto, se conveniente.
+- [ ] Fotografar e identificar terminal positivo (15/+), código e fabricante da bobina nova.
+- [ ] Medir queda de tensão entre o polo positivo da bateria e o terminal de alimentação 15/+ da bobina durante a partida, **apenas após identificação correta do terminal**.
+- [ ] Modelo/código do módulo de ignição.
+- [ ] Identificação visual do distribuidor.
+- [ ] Ordem real dos cilindros correspondente às velas fotografadas.
 
 ## 5. Decisões
 
