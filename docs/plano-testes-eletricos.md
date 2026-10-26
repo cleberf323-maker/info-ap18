@@ -89,6 +89,18 @@ Resultado: ____ V | Código da bobina: ____ | Observações: ____
 
 Resultados: chave desligada, fio preto ____ V; conector conectado e partida, queda ____ V.
 
+
+### T8 — Conferência de referência/estado antes de continuar testes de carga
+
+**Motivo:** leituras conflitantes de 12,6 V do fio preto em relação a ambos os polos da bateria com chave ligada; estado da conexão no segundo teste não esclarecido. Não concluir queda de alimentação com base nos 0,5–3 V durante partida.
+
+1. Confirmar se o conector estava **encaixado ou solto** no ensaio com ponta vermelha na bateria + e preta no fio preto.
+2. Com motor desligado e conector de baixa tensão **solto**, multímetro em V DC, chave ligada brevemente, medir na sequência: (A) bateria + em relação a bateria -; (B) contato preto no chicote em relação a bateria -; (C) bateria + em relação ao mesmo contato preto no chicote. Não dar partida e não mover o conector entre B e C.
+3. Conferir se A ≈ B + C (com sinais correspondentes). Se não bater, verificar ponto de contato da ponta, fios, modo/escala do multímetro, estado do conector, intermitência com chave/tempo. C deve ser próximo de zero se B estiver próximo de A.
+4. Interromper testes com conector encaixado e pontos expostos até confirmar pinos 15 (+) e 1 (controle) por identificação segura.
+
+**Resultados:** estado do conector durante ensaio anterior ____; A ____ V; B ____ V; C ____ V.
+
 ## Rodada 2 — identificação e inspeção
 
 - [x] Identificar bobina atual: Magneti Marelli BI0016MM; terminais da alimentação de baixa tensão ainda a fotografar/confirmar.
