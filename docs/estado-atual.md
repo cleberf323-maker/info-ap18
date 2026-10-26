@@ -104,3 +104,18 @@ Foto no chat: conector de duas vias da Magneti Marelli BI0016MM com fio vermelho
 **Próximo teste:** com chave desligada, desencaixar cuidadosamente somente conector de baixa tensão, inspecionar trava e contatos. Com multímetro V DC referenciado no negativo da bateria, ligar a chave brevemente e identificar qual contato do lado do chicote apresenta tensão próxima à bateria. Evitar pontas que possam encostar entre duas cavidades; não perfurar a isolação. Desligar a chave antes de reconectar. Com chicote conectado e polaridade confirmada, medir queda de tensão da alimentação durante a partida. Se for inseguro acessar contato, não fazer teste sem adaptador/backprobe.
 
 Fonte de equivalência BI0016MM/Bosch F000ZS0105: https://www.boschaftermarket.com/xrm/media/images/country_specific/br/downloads_19/pdf_9/catlogo_velas_cabos_bobinas_2019.pdf
+
+## 8. Medição do conector da bobina desligado — 2026-10-26
+
+Condições relatadas: conector de 2 fios da bobina **desconectado**, chave **ligada**, multímetro V DC, referência no negativo da bateria.
+
+| Contato do chicote | Medição | Interpretação |
+| --- | ---: | --- |
+| Fio preto | **12,6 V** | Provável alimentação positiva pós-chave do circuito da bobina, terminal 15, **a confirmar pelas marcações e comportamento com carga** |
+| Fio vermelho | **2,67 V** | Possível saída de comando do módulo Bosch com circuito aberto; **não é evidência isolada de defeito** |
+
+Esta leitura **contradiz a hipótese inicial feita pelas cores** (vermelho como alimentação, preto como comando): não utilizar cor como pinagem. Em circuito desconectado, 12,6 V não prova capacidade de alimentar corrente sem queda de tensão; 2,67 V no lado controlado pelo módulo pode refletir polarização/tensão aparente de um circuito sem carga.
+
+**Próximo passo elétrico T7:** (a) com plugue ainda desconectado, confirmar se a tensão no preto desaparece com chave desligada; (b) localizar gravações 15/+ e 1/- ou esquema do conector; (c) somente com a alimentação positiva identificada, **reconectar** a bobina e medir o positivo sob carga durante partida, via backprobe seguro, sem perfurar isolamento nem aproximar metal dos dois contatos. Comparar com 10,8 V prévios na bateria sob partida; idealmente medir diretamente queda entre polo positivo da bateria e entrada 15/+ da bobina. **Não encostar lâmpada de teste ou fazer aterramento no fio vermelho.** Se o contato não for acessível com segurança, parar e obter adaptador.
+
+Referência para arquitetura elétrica: manual FuelTech FT200, sec. 7.1.4, módulo Bosch 0 227 100 142 com saída para negativo da bobina e positivo pós-chave: https://ftmanager.fueltech.com.br/downloads/manual/Portugues/FT200.pdf
