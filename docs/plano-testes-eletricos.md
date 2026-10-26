@@ -72,12 +72,21 @@ Resultado: ____ V | Código da bobina: ____ | Observações: ____
 
 ## Rodada 2 — identificação e inspeção
 
-- [ ] Fotografar bobina atual e registrar fabricante/código/terminais.
-- [ ] Fotografar módulo de ignição e código.
+- [x] Identificar bobina atual: Magneti Marelli BI0016MM; terminais da alimentação de baixa tensão ainda a fotografar/confirmar.
+- [x] Fotografar módulo de ignição: Bosch 0 227 100 142 / VW 191 905 351 A.
 - [ ] Fotografar distribuidor e, com motor desligado, inspecionar tampa/rotor/cabos em busca de trincas, corrosão, carbonização, umidade, conexões frouxas.
 - [ ] Conferir fixação e oxidação de conectores de baixa tensão e pontos de terra.
 - [ ] Identificar se o sistema está original ou foi adaptado.
 - [ ] **Só depois de identificar a bobina e módulo**, verificar compatibilidade elétrica conforme documentação confiável.
+
+### Inspeção preliminar do módulo (2026-10-26)
+
+- [ ] Com chave desligada, conferir se a mola/retentor visualizado nas fotos realmente mantém o conector de sete vias totalmente assentado.
+- [ ] Sem puxar pelos fios, verificar visualmente fios ressecados, emendas, oxidação e folga no chicote.
+- [ ] Fotografar os dois terminais de baixa tensão da BI0016MM e eventual adaptador antes de T5; confirmar 15/+ pelo corpo da peça ou documentação.
+- [ ] Conferir que os pontos de fixação do módulo estejam firmes; não concluir que furos livres significam defeito de montagem.
+
+**Cautela:** não presumir incompatibilidade só porque a BI0016MM foi catalogada pela VW para AP Mi após 1996: há kit comercial com módulo equivalente Bosch 142. A compatibilidade elétrica de funcionamento e a adaptação de chicote devem ser verificadas sem alterar ligações no escuro.
 
 ## Rodada 3 — testes condicionais
 
