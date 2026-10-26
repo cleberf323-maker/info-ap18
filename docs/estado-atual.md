@@ -94,3 +94,13 @@ Fontes:
 - Gauss GA2142, equivalência do módulo: https://www.gauss.com.br/pt-br/produto/automoveis-e-utilitarios-leves/linha/modulo-de-ignicao/GA2142?pesquisa-tipo=geral&pesquisar-por-parte-codigo=false
 
 **Próximo passo:** inspeção de conector do módulo e fios com carro desligado; foto aproximada dos 2 contatos de baixa tensão da bobina atual e identificação dos pinos antes de T5.
+
+## 7. Foto aproximada do conector de baixa tensão — 2026-10-26
+
+Foto no chat: conector de duas vias da Magneti Marelli BI0016MM com fio vermelho e fio preto/escuro. Trava plástica visível: encaixe não conclusivo pela foto; conferir com chave desligada. Não há gravação 15/+ ou 1/- legível na foto.
+
+**Hipótese ainda não comprovada:** fio vermelho provavelmente alimentação positiva pós-chave (15); fio preto provavelmente comando chaveado do módulo (1). As cores não são prova de polaridade.
+
+**Próximo teste:** com chave desligada, desencaixar cuidadosamente somente conector de baixa tensão, inspecionar trava e contatos. Com multímetro V DC referenciado no negativo da bateria, ligar a chave brevemente e identificar qual contato do lado do chicote apresenta tensão próxima à bateria. Evitar pontas que possam encostar entre duas cavidades; não perfurar a isolação. Desligar a chave antes de reconectar. Com chicote conectado e polaridade confirmada, medir queda de tensão da alimentação durante a partida. Se for inseguro acessar contato, não fazer teste sem adaptador/backprobe.
+
+Fonte de equivalência BI0016MM/Bosch F000ZS0105: https://www.boschaftermarket.com/xrm/media/images/country_specific/br/downloads_19/pdf_9/catlogo_velas_cabos_bobinas_2019.pdf
