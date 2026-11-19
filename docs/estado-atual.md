@@ -139,3 +139,16 @@ Usuário informou:
 **Oscilações no arranque:** multímetro comum não caracteriza forma de onda do chaveamento do módulo; variação entre 0,5 e 3 V não é diagnóstico de queda em alimentação sem saber o estado do conector e a função do fio.
 
 **Próximo passo:** esclarecer se plugue estava conectado na última medição e repetir, **somente com conector desligado e sem dar partida**, três medições com chave ligada em rápida sequência, sem modificar conexão: bateria + → bateria -; fio preto do chicote → bateria -; bateria + → fio preto do chicote. Esperado V(+/-) ≈ V(preto/-) + V(+/preto), respeitando a polaridade. Não tocar nem aterrar o outro terminal, não manter chave ligada além do necessário, não fazer novos testes sob carga sem identificação de 15/1.
+
+## 10. Sensor Hall retirado — informação em 2026-11-19
+
+Proprietário informou que **removeu o sensor Hall** e perguntou se poderia verificá-lo com multímetro. Não está claro se foi retirado apenas o sensor interno ou o distribuidor inteiro; solicitar foto da peça e do conector antes de ligar qualquer alimentação.
+
+**Resposta técnica:** é possível ensaio estático com multímetro em V DC, alimentação correta e observação da saída enquanto passa a lâmina/obturador metálico pela abertura magnética. Conforme modelo do sensor, pode ser preciso resistor pull-up (~4,7 a 10 kΩ) entre sinal e alimentação lógica. Valor da alimentação e pinagem devem ser confirmados no componente/chicote: existem circuitos de 5 V e 12 V; não aplicar 12 V por suposição. Resistência/continuidade com sensor sem alimentação não é teste conclusivo. Se o sensor estiver solto, confirmar se ímã/polo magnético e o obturador estão presentes para executar o ensaio.
+
+**Próximo passo (antes de energizar):** obter fotografia nítida do sensor retirado, marcações e conector/pinos. Idealmente medir tensão de alimentação do chicote do distribuidor (conforme pinagem verificada) se for acessível. Um ensaio estático positivo não exclui defeitos térmicos/intermitentes no carro.
+
+Fontes consultadas:
+- [Procedimento de ignição TCI-H VW](https://torqfix.com/procedure/vw/checking-tci-h-switch-unit-and-hall-sender) — confirmação de tensão de alimentação no conector e de pulsos com ferramenta apropriada; aplicação distinta deve ser conferida.
+- [Manual VW Golf II/Jetta II — Hall sender](https://vwts.ru/vw_doc/eva2/FU03/ch3.4.2.html) — variação de alimentação conforme sistema.
+- [Princípio de teste estático do captador Hall de distribuidor](https://www.megamanual.com/ms2/pickups.htm) — obturador metálico, variação de saída e pull-up.
