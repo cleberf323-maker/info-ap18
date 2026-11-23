@@ -152,3 +152,14 @@ Fontes consultadas:
 - [Procedimento de ignição TCI-H VW](https://torqfix.com/procedure/vw/checking-tci-h-switch-unit-and-hall-sender) — confirmação de tensão de alimentação no conector e de pulsos com ferramenta apropriada; aplicação distinta deve ser conferida.
 - [Manual VW Golf II/Jetta II — Hall sender](https://vwts.ru/vw_doc/eva2/FU03/ch3.4.2.html) — variação de alimentação conforme sistema.
 - [Princípio de teste estático do captador Hall de distribuidor](https://www.megamanual.com/ms2/pickups.htm) — obturador metálico, variação de saída e pull-up.
+
+
+## 11. Atualização de 2026-11-23 — Hall, TACO, conta-giros e etiqueta de fábrica
+
+Os registros detalhados, resultados de medição, condições de teste, hipóteses pendentes, circuitos e firmware foram acrescentados em [contagiros-portatil.md](contagiros-portatil.md). Este adendo preserva o histórico de outubro/19 de novembro, inclusive a anotação antiga de remoção do Hall. Testes posteriores descritos no relatório foram realizados com o sensor novamente operacional no distribuidor, sem registro aqui das etapas intermediárias de remontagem.
+
+**Fatos novos:** Hall 58 mV ↔ 8,91 V com giro manual; alimentação medida 11,18 V; Hall e TACO com 4 ciclos por 2 voltas do virabrequim; frequência TACO na lenta ~20 Hz segundo ANENG ST180 (600 RPM **condicionais à precisão da leitura dinâmica**); leituras DC no TACO chave ligada 134 mV e motor ligado ~10 V médio. Android/Uno/ORPC 817A testados; bancada 20, 30, 50 e 100 Hz aprovada; 12 V independentes acionaram opto estaticamente.
+
+**Etiqueta original do capô, coluna gasolina:** ponto 9°, lenta **900 ± 50 RPM** (nominal 900, intervalo 850–950), CO 1,0 ± 0,5%; condições e transcrição completas no relatório. Fotos foram mostradas no chat e ainda não estão neste repositório.
+
+**PENDENTE:** proteger e caracterizar entrada contra transientes positivos, validar leitura real de RPM no motor e testar apresentação ANSI no Samsung. Não declarar concluído.
