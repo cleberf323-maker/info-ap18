@@ -42,3 +42,15 @@ Executar a **rodada 1 de medições elétricas**, registrar os valores e só ent
 - Evitar contato com alta tensão da ignição, combustível exposto e componentes móveis/quentes. Testes com motor de partida exigem câmbio em neutro, freio de estacionamento e ajuda de outra pessoa quando necessário.
 
 **Registro inicial:** 2026-10-25, baseado no histórico de diagnóstico informado pelo proprietário.
+
+
+## Avanço recente: conta-giros portátil (2026-11-23)
+
+O projeto desenvolveu um **instrumento temporário** com Arduino Uno, optoacoplador ORPC 817A e Samsung Galaxy M20 conectado por hub USB-C. A contagem de 20/30/50/100 Hz foi validada em bancada; o Hall e a saída TACO apresentaram 4 ciclos em 2 voltas manuais do virabrequim, estabelecendo **RPM = Hz × 30**. A leitura no carro e a proteção contra transientes positivos **ainda não estão validadas**. A foto da etiqueta original informa, para gasolina, **9° e 900 ± 50 RPM**.
+
+- [Relatório técnico, medições, proteção, pendências e etiqueta de fábrica](docs/contagiros-portatil.md)
+- [Sketch v1.3 — gerador e leitor com opto, aprovado em bancada](arduino/contagiros_v1_3_bancada.ino)
+- [Sketch v1.4 — leitura real, ainda não validado no carro](arduino/contagiros_v1_4_rpm_real.ino)
+- [Sketch v1.5 — terminal ANSI fixo, ainda não validado no M20](arduino/contagiros_v1_5_terminal.ino)
+
+**Para retomada:** seguir os registros recentes em `docs/contagiros-portatil.md`; a seção inicial "Próxima ação" acima é histórica e não substitui os registros de novembro.
