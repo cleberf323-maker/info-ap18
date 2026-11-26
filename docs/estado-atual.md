@@ -163,3 +163,17 @@ Os registros detalhados, resultados de medição, condições de teste, hipótes
 **Etiqueta original do capô, coluna gasolina:** ponto 9°, lenta **900 ± 50 RPM** (nominal 900, intervalo 850–950), CO 1,0 ± 0,5%; condições e transcrição completas no relatório. Fotos foram mostradas no chat e ainda não estão neste repositório.
 
 **PENDENTE:** proteger e caracterizar entrada contra transientes positivos, validar leitura real de RPM no motor e testar apresentação ANSI no Samsung. Não declarar concluído.
+
+## 12. Esclarecimento — distribuidor retirado para limpeza (2026-11-26)
+
+O proprietário esclareceu que **retirou do motor o distribuidor completo para limpeza porque estava muito sujo**. O relato anterior sobre ter 'removido o sensor Hall' **não comprova que o captador Hall foi extraído separadamente do corpo do distribuidor**. Manter essa distinção nos registros.
+
+Importante: a investigação já inclui ensaios posteriores do Hall **no carro** descritos em `docs/contagiros-portatil.md`: alimentação 11,18 V, sinal variando entre aproximadamente 58 mV e 8,91 V e quatro ciclos em duas voltas manuais do virabrequim. Isso comprova comutação estática na ocasião, mas não exclui falha intermitente em temperatura ou rotação.
+
+Próximos cuidados para o distribuidor retirado:
+- Antes de desmontar, fotografar posição de rotor, acoplamento, corpo e conexões; se o eixo do motor foi girado desde a retirada ou a marca original não foi feita, sincronizar pelo PMS de compressão do cilindro 1, referência do rotor e ajuste correto do ponto.
+- Limpeza: usar pincel macio e produto adequado a contatos nas conexões, aplicado com parcimônia; não mergulhar o conjunto, encharcar o captador Hall nem aplicar óleo às pistas do sensor ou aos contatos da tampa.
+- Inspecionar tampa, rotor, eixo (folga), peças do avanço e chicote; não desmontar mecanismos delicados nem desregular sem evidência.
+- **Reinstalação exige verificação do ponto de ignição**, conforme a etiqueta original na tampa do motor para gasolina: 9° à marcha lenta 900 ± 50 RPM, nas condições descritas em `docs/contagiros-portatil.md`.
+
+Fonte geral de serviço de distribuidor VW de geração semelhante (não substitui especificação do AP 1993): https://vwts.ru/vw_doc/eva2/FU03/ch5.html
