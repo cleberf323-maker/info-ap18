@@ -177,3 +177,15 @@ Próximos cuidados para o distribuidor retirado:
 - **Reinstalação exige verificação do ponto de ignição**, conforme a etiqueta original na tampa do motor para gasolina: 9° à marcha lenta 900 ± 50 RPM, nas condições descritas em `docs/contagiros-portatil.md`.
 
 Fonte geral de serviço de distribuidor VW de geração semelhante (não substitui especificação do AP 1993): https://vwts.ru/vw_doc/eva2/FU03/ch5.html
+
+## 13. Intervenção concluída no distribuidor — relato de 2026-11-26
+
+Usuário corrigiu a informação anterior: **desmontou completamente o distribuidor**, limpou todas as peças **com WD (produto exato não confirmado) e pincel**, **remontou e reinstalou no motor**. Não presumir que a intervenção foi apenas retirada da peça inteira, sem abertura interna. A seção 12 retrata um estado anterior do diálogo, agora superado pelo relato atual.
+
+**Ainda não informado:** se o motor voltou a pegar e funcionar normalmente após a remontagem; se marcou o corpo do distribuidor antes da remoção; se a referência de posição do rotor foi conservada; se os avanços centrífugo e a vácuo foram inspecionados durante a remontagem; e se o ponto de ignição foi verificado após instalar.
+
+**Cuidados e conclusões:** se foi WD-40 Multiuso, produto deixa película oleosa; isso não prova dano, mas contatos do rotor/tampa e sensor Hall não devem ficar encharcados nem excessivamente impregnados. Verificar compatibilidade e limpeza apropriada antes de intervir mais. Desmontagem integral introduz possibilidade de erro de montagem/posição, não implica necessariamente que houve erro. Priorizar confirmação de sincronismo, posição do rotor no PMS de compressão do cilindro 1, engate correto, liberdade de mecanismos de avanço e medição do ponto com instrumento apropriado. **Não dirigir em carga nem regular carburador** sem validar funcionamento e ponto.
+
+**Referência do carro (etiqueta original documentada em contagiros-portatil.md):** gasolina 9° no regime de lenta 900 ± 50 RPM, nas condições impressas da etiqueta. Medida com pistola de ponto, não somente pela posição visual do distribuidor.
+
+Fontes externas: WD40 sobre película residual https://wd40.ae/faqs/ ; manual genérico de pistola de ponto https://www.sacch.com.br/manuais/LPD.pdf (confirmar condições específicas pela etiqueta original).
