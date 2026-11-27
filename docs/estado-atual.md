@@ -218,3 +218,20 @@ Proprietário enviou fotografia aproximada do rotor Bosch 1 234 332 300 atualmen
 **Especificação verificada:** a ficha de produto da Bosch para rotor 1234332300 informa resistor supressor de **1 kΩ nominal**. Catálogos e materiais técnicos indicam faixa aproximadamente **0,9 a 1,5 kΩ**, considerando fontes e método de medição. Fontes: https://ap-ecat.boschaftermarket.com/MY/en_MY/products/1234332300 e https://www.todomecanica.com/recursos/sistemas_encendido_bosch.pdf.
 
 **Teste proposto ainda não realizado:** com rotor removido e completamente sem conexão ao carro, multímetro em resistência escala 2 kΩ (ou 20 kΩ), uma ponta no contato metálico central (onde toca o carvão da tampa) e outra na ponta externa da lâmina metálica. Resultado esperado próximo de 1 kΩ; aberto/OL ou grande instabilidade após confirmar contatos são anormais. Medição de resistência correta não comprova integridade do isolamento sob alta tensão nem ausência de falha a quente.
+
+## 17. Fusíveis da Parati 1993 — pesquisa de 2026-11-27
+
+Pedido: identificar correspondência da caixa de fusíveis, especialmente o circuito das luzes de marcha à ré.
+
+**Confirmado por manual da linha VW Gol/Saveiro/Voyage/Parati de 1993:** fusível **12**, **10 A** (cor vermelha), alimenta os faroletes de marcha à ré e outros consumidores (indicadores de direção, conta-giros, luzes indicadoras, nível de combustível, temperatura de arrefecimento e circuitos dependentes da motorização). NÃO utilizar tabela da linha 1995+ (frequentemente aponta fusível 28) para esta Parati 1993.
+
+Resumo das demais posições segundo manual de época (configurações/opcionais variam): 1 15 A neblina/livre; 2 15 A alerta; 3 25 A buzina/freio; 4 5 A rádio/relógio/interna; 5 30 A ventoinha climatizador/livre; 6 e 7 3 A lanternas direita e esquerda; 8 e 9 10 A faróis altos direita/esquerda; 10 e 11 10 A baixos direita/esquerda; 12 10 A indicadores/ré/instrumentos; 13 livre; 14 3 A luz porta-luvas/placa etc.; 15 15 A limpador/lavador dianteiro; 16 25 A desembaçador traseiro; 17 30 A ventilador interior/retrovisores; 18 15 A acendedor/limpador traseiro; 19 25 A ventoinha sem climatizador; 20 e 21 30 A climatizador/ventoinha/travas conforme versão; 22–24 livres na tabela; 25 5 A leitura/livre; 26 10 A bomba combustível quando aplicável; 27 livre; 28 15 A faróis auxiliares quando aplicável.
+
+**Sequência diagnóstica prevista (sem execução declarada):** verificar fusível 12 por inspeção e continuidade com chave desligada/fusível removido, conferir 12 V nos pontos de teste com chave ligada, verificar lâmpadas/soquetes e interruptor de marcha ré na caixa de câmbio se os indicadores de direção e instrumentos seguem funcionando. Para teste do interruptor usar conector correto, carro imobilizado, motor parado, ignição ligada somente na medição; não fazer curto contra massa nem exceder 10 A.
+
+Fontes:
+- Manual do proprietário VW 1993 digitalizado: https://it.scribd.com/doc/263474385/Manual-de-Instru-Es-93-Gol-Saveiro-Voyage-Parati
+- Manual digitalizado da família VW quadrado (aprox. 1991–1994): https://onlycars.com.br/2012/03/manual-proprietario-vw-gol-quadrado-g1.html
+- Tabela Parati 1993: https://www.opinautos.com.br/volkswagen/parati/info/fusiveis/1993
+
+**Pendente:** fotografia da caixa real, confirmação de falha das luzes de ré e medições para diagnóstico. Não afirmar fusível queimado.
