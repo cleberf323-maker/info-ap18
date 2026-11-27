@@ -208,3 +208,13 @@ Proprietário informou o código marcado no rotor: **1 234 332 300** (1234332300
 **Não concluído:** condição real dos contatos, resistor interno do rotor (quando aplicável), fissuras, carbonização, carvão central da tampa e folgas do eixo. A confirmação de part number não elimina defeito funcional; não trocar peças somente por suspeita.
 
 Fonte consultada: reprodução do catálogo Bosch 2012/2013 (Parati I 1.8): https://es.slideshare.net/slideshow/bosch-ignio-catlogo-ignio-sistemas-convencionais/65953453 ; exemplo de conjunto comercial equivalente: https://www.mercadolivre.com.br/tampa-com-pino--rotor-bosch-gol-quadrado-ap-cht-1991-a-1996/up/MLBU2651984750
+
+## 16. Foto do rotor em uso e teste de resistência — 2026-11-27
+
+Proprietário enviou fotografia aproximada do rotor Bosch 1 234 332 300 atualmente em uso.
+
+**Inspeção visual limitada à foto:** a lâmina metálica externa parece com oxidação/tarnish superficial e marcas de uso; isolador vermelho aparentemente íntegro na região mostrada; algumas irregularidades e riscos na superfície plástica preta, que não são suficientes para afirmar trinca ou fuga de alta tensão. Não condenar apenas pela fotografia.
+
+**Especificação verificada:** a ficha de produto da Bosch para rotor 1234332300 informa resistor supressor de **1 kΩ nominal**. Catálogos e materiais técnicos indicam faixa aproximadamente **0,9 a 1,5 kΩ**, considerando fontes e método de medição. Fontes: https://ap-ecat.boschaftermarket.com/MY/en_MY/products/1234332300 e https://www.todomecanica.com/recursos/sistemas_encendido_bosch.pdf.
+
+**Teste proposto ainda não realizado:** com rotor removido e completamente sem conexão ao carro, multímetro em resistência escala 2 kΩ (ou 20 kΩ), uma ponta no contato metálico central (onde toca o carvão da tampa) e outra na ponta externa da lâmina metálica. Resultado esperado próximo de 1 kΩ; aberto/OL ou grande instabilidade após confirmar contatos são anormais. Medição de resistência correta não comprova integridade do isolamento sob alta tensão nem ausência de falha a quente.
