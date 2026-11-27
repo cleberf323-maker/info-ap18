@@ -200,3 +200,11 @@ Fontes externas: WD40 sobre película residual https://wd40.ae/faqs/ ; manual ge
 - O proprietário esclareceu que após limpar as peças com WD/pincel **retirou o excesso e secou bem** antes de remontar. Não presumir que estejam encharcadas.
 
 **Fontes**: catálogo Bosch original (espelho PDF) https://6canecos.com.br/files/electrical/CatalogoIgnicaoBosch.pdf ; comerciante confirma variante com pino https://www.reidaignicao.com.br/tampa-do-distribuidor-bosch-9232081442 .
+
+## 15. Rotor confirmado — 2026-11-27
+
+Proprietário informou o código marcado no rotor: **1 234 332 300** (1234332300). O catálogo Bosch de ignição 2012/2013, seção Volkswagen Parati I 1.8 1991–1995 álcool/gasolina, lista **rotor 1 234 332 300** (VW **026 905 225 1**) e **tampa 9 232 081 442** (VW **026 905 207 2**). Conjunto **compatível por catálogo** para a Parati 1993 AP 1.8 gasolina, assumido distribuidor da configuração de aplicação.
+
+**Não concluído:** condição real dos contatos, resistor interno do rotor (quando aplicável), fissuras, carbonização, carvão central da tampa e folgas do eixo. A confirmação de part number não elimina defeito funcional; não trocar peças somente por suspeita.
+
+Fonte consultada: reprodução do catálogo Bosch 2012/2013 (Parati I 1.8): https://es.slideshare.net/slideshow/bosch-ignio-catlogo-ignio-sistemas-convencionais/65953453 ; exemplo de conjunto comercial equivalente: https://www.mercadolivre.com.br/tampa-com-pino--rotor-bosch-gol-quadrado-ap-cht-1991-a-1996/up/MLBU2651984750
