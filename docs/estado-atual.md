@@ -189,3 +189,14 @@ Usuário corrigiu a informação anterior: **desmontou completamente o distribui
 **Referência do carro (etiqueta original documentada em contagiros-portatil.md):** gasolina 9° no regime de lenta 900 ± 50 RPM, nas condições impressas da etiqueta. Medida com pistola de ponto, não somente pela posição visual do distribuidor.
 
 Fontes externas: WD40 sobre película residual https://wd40.ae/faqs/ ; manual genérico de pistola de ponto https://www.sacch.com.br/manuais/LPD.pdf (confirmar condições específicas pela etiqueta original).
+
+## 14. Identificação da tampa do distribuidor — 2026-11-27
+
+- Número gravado informado pelo proprietário: **9 232 081 442** (9232081442).
+- Confirmado no catálogo Bosch de sistemas convencionais 2012/2013 (quadro VOLKSWAGEN, Parati I, **1.8, 1991–1995, álcool/gasolina**) como **tampa do distribuidor**.
+- Equivalência original VW: **026 905 207 2**.
+- **Rotor** indicado na mesma linha de aplicação: **Bosch 1 234 332 300** (VW 026 905 225 1). Confirmar código/encaixe do rotor realmente montado; mesmo modelo de tampa pode ser oferecido com diferentes rotores em kits de anos diferentes.
+- A tampa **9 232 081 442** é comercializada como modelo **com pino**; se o distribuidor foi alterado ou usar conjunto sem pino, validar encaixe físico e contato interno. O código é correto para a aplicação catalogada, mas não avalia estado físico, carbonização, trincas ou contato do carvão central.
+- O proprietário esclareceu que após limpar as peças com WD/pincel **retirou o excesso e secou bem** antes de remontar. Não presumir que estejam encharcadas.
+
+**Fontes**: catálogo Bosch original (espelho PDF) https://6canecos.com.br/files/electrical/CatalogoIgnicaoBosch.pdf ; comerciante confirma variante com pino https://www.reidaignicao.com.br/tampa-do-distribuidor-bosch-9232081442 .
